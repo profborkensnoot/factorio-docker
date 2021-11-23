@@ -14,7 +14,7 @@ def build_dockerfile(sha256, version, tags):
     build_command = ["docker", "build", "--build-arg", f"VERSION={version}",
                      "--build-arg", f"SHA256={sha256}", "."]
     for tag in tags:
-        build_command.extend(["-t", f"profborkensnoot/factorio:{tag}"])
+        build_command.extend(["-t", f"profborkensnoot/docktorio:{tag}"])
     try:
         subprocess.run(build_command, cwd=build_dir, check=True)
     except subprocess.CalledProcessError:
@@ -50,7 +50,7 @@ def main(push_tags=False):
             continue
         for tag in tags:
             try:
-                subprocess.run(["docker", "push", f"profborkensnoot/factorio:{tag}"],
+                subprocess.run(["docker", "push", f"profborkensnoot/docktorio:{tag}"],
                                check=True)
             except subprocess.CalledProcessError:
                 print("Docker push failed")
