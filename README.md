@@ -1,6 +1,5 @@
 <!-- start autogeneration tags -->
-* `1.1.48`, `latest`, `experimental`
-* `1.1.46`, `stable`
+* `1.1.48`, `latest`, `experimental`, `stable`
 <!-- end autogeneration tags -->
 
 ## Tag descriptions
