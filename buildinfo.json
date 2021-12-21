@@ -1,15 +1,15 @@
 {
-  "1.1.48": {
-    "sha256": "3e05b7277ae561dba132bc87811eacbfb8e35040971017c3235e882155ff3742",
-    "tags": [
-      "1.1.48",
-      "stable"
-    ]
-  },
   "1.1.49": {
     "sha256": "3bdfd93d3149a0341257ee9638e6accbb59ce2e4082639d58ba6914ae20e8550",
     "tags": [
       "1.1.49",
+      "stable"
+    ]
+  },
+  "1.1.50": {
+    "sha256": "15148b77a703c25412ed912e4230bdb66e1a9a4450ac52ccf495c2afede2e548",
+    "tags": [
+      "1.1.50",
       "latest",
 	  "experimental"
     ]
